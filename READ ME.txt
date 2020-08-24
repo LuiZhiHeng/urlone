@@ -1,0 +1,38 @@
+========================================================
+To run this poject, you need to:
+========================================================
+STEP 1   || INSTALLATION (Search YouTube for installation tutorial)
+-------------------------------------------------------------------------------------------------------
+	| - install composer.
+	| - install laravel.
+	| - install xampp.
+========================================================
+
+
+========================================================
+STEP 2   || SETTING UP
+-------------------------------------------------------------------------------------------------------
+	| - Copy the 'urlone' file to your 'htdocs' folder in 'xampp' folder.
+	| - Create a database call 'dburl'.
+	| - Open cmd (Command Prompt).
+	| - In cmd, go to path of 'laravel' folder which in the 'urlone' folder.
+	|      - Example: cd Program Files/xampp/htdocs/urlone/laravel
+	| - In cmd, input 'php artisan migrate' to create database table.
+========================================================
+
+
+========================================================
+STEP 3   || START USING
+-------------------------------------------------------------------------------------------------------
+	| - In cmd, go to path of 'laravel' folder which in the 'urlone' folder.
+	|      - Example: cd Program Files/xampp/htdocs/urlone/laravel
+	| - In cmd, input 'php artisan serve' to get the url link.
+	|      - Example url link: 127.0.0.1:8000
+	|      - Keep the cmd open.
+	| - Copy the url link to your web browser and start use the system.
+========================================================
+
+URL LINK (You can modify it in 'laravel/routes/web.php')
+- 128.0.0.1:8000 (Main Page)
+- 128.0.0.1:8000/urlone/indexx (View all data in database)
+- 128.0.0.1:8000/{YourLinkHere} (Get the content)
